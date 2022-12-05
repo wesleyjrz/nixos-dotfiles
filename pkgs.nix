@@ -92,7 +92,7 @@ in
 		imv # image viewer
 		mpv-unwrapped # video and audio player
 		mupdf # PDF viewer
-		firefox # web browser
+		firefox tor-browser-bundle-bin # web browser
 		tutanota-desktop # email client
 		# neomutt
 		calcurse # calendar

@@ -20,6 +20,7 @@
 	system.stateVersion = "22.05";
 
 	nixpkgs.config.allowUnfree = true;
+	nixpkgs.config.joypixels.acceptLicense = true;
 
 	nix.settings.experimental-features = [
 		"nix-command"
@@ -176,6 +177,7 @@
 		noto-fonts noto-fonts-cjk noto-fonts-emoji
 		ubuntu_font_family
 		corefonts # Microsoft fonts
+		joypixels # emojis
 	];
 
 	### Nix Store

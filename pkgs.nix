@@ -140,6 +140,10 @@ in
 		unixtools.xxd # hexdump
 		entr # run arbitrary commands when files change
 		jq # JSON processor
+
+		tree-sitter # parser generator
+		tree-sitter-grammars.tree-sitter-sql
+
 		docker # portable containers
 		gh # github command line tool
 
@@ -164,6 +168,7 @@ in
 		nodePackages.bash-language-server # LSP
 
 		# Web development
+		nodejs
 		nodePackages.live-server # simple http server
 		sass # CSS preprocessor
 		hugo # static website engine

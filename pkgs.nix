@@ -89,14 +89,14 @@ in
 		exa # list files
 		lf # file manager
 		bashmount # mount external drives
-		imv # image viewer
+		imv ueberzug # image viewer
 		mpv-unwrapped # video and audio player
 		mupdf # PDF viewer
 		firefox tor-browser-bundle-bin # web browser
 		tutanota-desktop # email client
 		# neomutt
 		calcurse # calendar
-		gtk-pipe-viewer # youtube client
+		ytfzf yt-dlp # youtube client
 		zip unzip _7zz unrar # archivers
 
 		### Theme

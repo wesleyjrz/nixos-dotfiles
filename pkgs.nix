@@ -93,6 +93,7 @@ in
 		mpv-unwrapped # video and audio player
 		mupdf # PDF viewer
 		firefox tor-browser-bundle-bin # web browser
+		transmission-gtk # BitTorrent client
 		tutanota-desktop # email client
 		# neomutt
 		calcurse # calendar

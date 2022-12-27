@@ -12,11 +12,14 @@
 
 {
 	environment.sessionVariables = rec {
-
 		# Default programs
 		EDITOR = "nvim";
 		TERMINAL = "termite";
 		BROWSER = "firefox";
+		VIDEO_PLAYER = "mpv";
+		IMAGE_VIEWER = "imv";
+		PDF_READER = "zathura";
+		OFFICE_SUITE = "libreoffice";
 
 		# XDG settings
 		XDG_RUNTIME_DIR = "/run/user/1000";

@@ -145,7 +145,7 @@ in
 		tree-sitter # parser generator
 		tree-sitter-grammars.tree-sitter-sql
 
-		docker # portable containers
+		docker docker-compose # portable containers
 		gh # github command line tool
 
 		# C/C++

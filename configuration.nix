@@ -73,14 +73,15 @@
 		description = "Wesley Jr.";
 		home = "/home/wesleyjrz";
 		extraGroups = [
-			"wheel"          # enable `sudo` for the user
+			"wheel" # enable `sudo` for the user
 			"tty"
 			"audio"
 			"sound"
 			"video"
 			"input"
-			"docker"         # run docker commands
-			"adbusers"       # enable adb
+			"docker" # run docker commands
+			"user-with-access-to-virtualbox"
+			"adbusers" # enable adb
 			"networkmanager" # enable to change network settings
 		];
 	};
@@ -208,7 +209,11 @@
 
 	### Virtualisation
 
-	virtualisation.docker.enable = true;
+	virtualisation = {
+		docker.enable = true;
+		virtualbox.host.enable = true;
+		virtualbox.guest.enable = true;
+	};
 
 	### Android Debug Shell
 

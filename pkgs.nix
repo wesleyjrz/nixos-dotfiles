@@ -83,7 +83,21 @@ in
 		xorg.xkill # kill Xorg applications with cursor
 		xdragon # drag-and-drop files
 		unclutter-xfixes # hide cursor
-		termite # terminal emulator
+
+		# terminal emulator
+		 (st.overrideAttrs (oldAttrs: rec {
+			src = fetchFromGitHub {
+				owner = "wesleyjrz";
+				repo = "st";
+				rev = "4f5b65815a3658f15ac82116d63e5ab6f39175c4";
+				sha256 = "1hy0kr3p25fcs8k4gjsvab09jwnp0144510mvlj9b8gr6i2brmvk";
+			};
+			buildInputs = oldAttrs.buildInputs ++ [
+				harfbuzz # ligatures dependency
+				gd glib
+			];
+		}))
+
 		htop-vim # process manager
 		trash-cli # CLI trash
 		exa # list files

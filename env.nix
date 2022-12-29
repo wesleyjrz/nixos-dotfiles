@@ -14,7 +14,7 @@
 	environment.sessionVariables = rec {
 		# Default programs
 		EDITOR = "nvim";
-		TERMINAL = "termite";
+		TERMINAL = "st";
 		BROWSER = "firefox";
 		VIDEO_PLAYER = "mpv";
 		IMAGE_VIEWER = "imv";

@@ -98,7 +98,7 @@ in
 			];
 		}))
 
-		htop-vim # process manager
+		gotop # process manager
 		trash-cli # CLI trash
 		exa # list files
 		lf # file manager

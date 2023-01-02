@@ -105,7 +105,7 @@ in
 		bashmount # mount external drives
 		imv ueberzug # image viewer
 		mpv-unwrapped # video and audio player
-		mupdf # PDF viewer
+		zathura # PDF viewer
 		firefox tor-browser-bundle-bin # web browser
 		transmission-gtk # BitTorrent client
 		tutanota-desktop # email client

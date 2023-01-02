@@ -89,8 +89,8 @@ in
 			src = fetchFromGitHub {
 				owner = "wesleyjrz";
 				repo = "st";
-				rev = "4f5b65815a3658f15ac82116d63e5ab6f39175c4";
-				sha256 = "1hy0kr3p25fcs8k4gjsvab09jwnp0144510mvlj9b8gr6i2brmvk";
+				rev = "a48d8fe427eb32ad5db26cda7ba96f645f27bcb0";
+				sha256 = "1ddgvaxd2xhrprlh6m15vv8a5gsd5db3jg8gpjfq3cpvg35jl6a8";
 			};
 			buildInputs = oldAttrs.buildInputs ++ [
 				harfbuzz # ligatures dependency

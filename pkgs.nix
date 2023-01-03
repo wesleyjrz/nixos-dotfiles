@@ -166,7 +166,7 @@ in
 		gh # github command line tool
 
 		# C/C++
-		gcc # compiler
+		gcc tinycc # compiler
 		gdb cgdb # debugger
 		ccls # LSP
 

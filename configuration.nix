@@ -78,10 +78,11 @@
 			"sound"
 			"video"
 			"input"
-			"docker" # run docker commands
-			"user-with-access-to-virtualbox"
-			"adbusers" # enable adb
-			"networkmanager" # enable to change network settings
+			"disk"
+			"docker"
+			"libvirt" "libvirtd" "libvirt-qemu" "kvm"
+			"adbusers"
+			"networkmanager"
 		];
 	};
 
@@ -209,8 +210,7 @@
 
 	virtualisation = {
 		docker.enable = true;
-		virtualbox.host.enable = true;
-		virtualbox.guest.enable = true;
+		libvirtd.enable = true;
 	};
 
 	### Android Debug Shell

@@ -143,6 +143,9 @@ in
 		# Cryptocurency
 		nodePackages.coinmon # price monitor
 
+		# Virtual machines
+		qemu virt-manager
+
 		### Development
 
 		# Tools

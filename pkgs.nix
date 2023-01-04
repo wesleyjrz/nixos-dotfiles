@@ -108,8 +108,7 @@ in
 		zathura # PDF viewer
 		firefox tor-browser-bundle-bin # web browser
 		transmission-gtk # BitTorrent client
-		tutanota-desktop # email client
-		# neomutt
+		# neomutt # email client
 		calcurse # calendar
 		ytfzf yt-dlp # youtube client
 		zip unzip _7zz unrar # archivers

@@ -41,6 +41,8 @@
 		CGDB_DIR = "\${HOME}/.config/cgdb";
 		ELECTRUMDIR = "\${HOME}/.local/share/electrum";
 		NPM_CONFIG_USERCONFIG = "\${HOME}/.config/npm/config";
+		DOCKER_CONFIG = "\${HOME}/.config/docker";
+		JULIA_DEPOT_PATH = "\${HOME}/.local/share/julia:\${JULIA_DEPOT_PATH}";
 
 		# Set QT5 theme
 		QT_QPA_PLATFORMTHEME = "qt5ct";

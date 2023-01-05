@@ -150,7 +150,6 @@ in
 		# Tools
 		git git-lfs git-crypt # git + tools
 		nix-prefetch-scripts # obtain source hashes
-		any-nix-shell # use any shell with nix-shell
 		binutils # set of tools for creating and managing binary programs
 		gnumake # generate executables and other non-source files easily
 		file # show file types

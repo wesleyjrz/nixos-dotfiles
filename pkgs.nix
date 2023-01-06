@@ -77,7 +77,7 @@ in
 		rofi # applications menu
 		haskellPackages.greenclip # clipboard manager
 		dunst libnotify xclip # notifications
-		maim # screenshots
+		maim xdotool # screenshots
 		redshift # blue light filter
 		xss-lock i3lock-fancy-rapid # screen locker
 		xorg.xkill # kill Xorg applications with cursor

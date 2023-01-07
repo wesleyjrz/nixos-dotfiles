@@ -148,7 +148,6 @@
 
 	### SSH and Encryption
 
-	services.pcscd.enable = true;
 	services.openssh = {
 		enable = true;
 		# permitRootLogin = "yes";

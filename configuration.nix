@@ -84,6 +84,11 @@
 			"adbusers"
 			"networkmanager"
 		];
+
+		openssh.authorizedKeys.keys = [
+			# Default SSH key
+			"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDliiOH5pQBXCFf3mNf2lSBJTH8Qi46bsP1qrQzdrnq+ wesleyjrz-nixos"
+		];
 	};
 
 	### Network
@@ -141,10 +146,21 @@
 		udisks2.enable = true;
 	};
 
-	### Encryption
+	### SSH and Encryption
 
-	services.openssh.enable = true;
 	services.pcscd.enable = true;
+	services.openssh = {
+		enable = true;
+		# permitRootLogin = "yes";
+
+		# Automatically open ports in the firewall
+		ports = [ 22 ];
+		openFirewall = true;
+
+		# Require public key authentication for better security
+		passwordAuthentication = false;
+		kbdInteractiveAuthentication = false;
+	};
 
 	programs = {
 		mtr.enable = true;
